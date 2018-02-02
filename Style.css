@@ -1,0 +1,62 @@
+﻿body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.floating-box-title {
+    display: inline-block;
+    width: 30%;
+    height: 500%;
+    margin: 10px;
+    border: 1px solid #1684bb;
+    text-align: center
+}
+
+.floating-box-content {
+    display: inline-block;
+    width: 30%;
+    height: 500%;
+    margin: 12px;
+    text-align: left;
+    vertical-align: text-top;
+    border: 1px solid white;
+}
+
+*{
+   padding: 0px;
+   margin: 0px;
+}
+#navl {
+	width: 100%;
+	height: 70px;
+	line-height:70px;
+	background: #1684bb;
+}
+#navl h1{
+    float: left;
+	font-size: 2.5 em;
+	margin-left: 15px;
+    color:aliceblue;
+}
+
+#navl h1 a{
+    text-decoration: none;
+	color: white;
+}
+#navl ul {
+	float: right;
+	margin.right: 15px;
+}
+#navl ul li{
+    display: inline-block;
+	list-style-type: none;
+}
+#navl ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+}
+#navl ul li:hover{
+	background: #1684bb;
+}
+#active{
+   background: #1684bb;
+}
