@@ -1,13 +1,27 @@
 ﻿body {
     font-family: 'Roboto Condensed', sans-serif;
+	
 }
+#main-content{
+    width: 100%;
+	height: 1000px;
+	background: url(MP.jpg) ;
+	background-size: cover;
+    background-repeat: no-repeat;
+	text-align: center;
+	color: #ffeaca;
+	font-size: 25px;
+	font-family: 'Monoton';
+	}
 .floating-box-title {
     display: inline-block;
     width: 30%;
     height: 500%;
     margin: 10px;
-    border: 1px solid #1684bb;
-    text-align: center
+    border: 1px solid #7e7e7e;
+  	color:#946721;
+	background: #aea18e;
+		
 }
 
 .floating-box-content {
@@ -28,7 +42,7 @@
 	width: 100%;
 	height: 70px;
 	line-height:70px;
-	background: #1684bb;
+	background: #315c71;
 }
 #navl h1{
     float: left;
@@ -56,6 +70,7 @@
 }
 #navl ul li:hover{
 	background: #1684bb;
+	transition: all ease-in-out 0.45s;
 }
 #active{
    background: #1684bb;
