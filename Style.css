@@ -1,24 +1,18 @@
 ﻿body {
     font-family: 'Roboto Condensed', sans-serif;
 }
-.floating-box-title {
+.floating-box {
     display: inline-block;
     width: 30%;
     height: 500%;
     margin: 10px;
-    border: 1px solid #1684bb;
-    text-align: center
+    text-align: center;
+    vertical-align: text-top
+}
+.title {
+	border: 1px solid #1684bb;
 }
 
-.floating-box-content {
-    display: inline-block;
-    width: 30%;
-    height: 500%;
-    margin: 12px;
-    text-align: left;
-    vertical-align: text-top;
-    border: 1px solid white;
-}
 
 *{
    padding: 0px;
