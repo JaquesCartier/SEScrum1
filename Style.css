@@ -1,5 +1,6 @@
 ﻿body {
     font-family: 'Roboto Condensed', sans-serif;
+	
 }
 .floating-box {
     display: inline-block;
@@ -12,17 +13,27 @@
 .title {
 	border: 1px solid #1684bb;
 }
-
-
+#main-content{
+    width: 100%;
+	height: 1850px;
+	background: url(MP.jpg) ;
+	background-size:cover;
+    background-repeat: no-repeat;
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 65px;
+	font-family: 'Monoton';
+	}
 *{
    padding: 0px;
    margin: 0px;
 }
 #navl {
-	width: 100%;
-	height: 70px;
-	line-height:70px;
-	background: #1684bb;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: #1e698f;
 }
 #navl h1{
     float: left;
@@ -50,7 +61,89 @@
 }
 #navl ul li:hover{
 	background: #1684bb;
+	transition: all ease-in-out 0.45s;
 }
 #active{
    background: #1684bb;
 }
+#service{
+	background:#e6e5d4;
+	width:300px;
+	height:70px;
+	line-height:60px;
+	margin-left: auto;
+	margin-right:auto;
+	border-radius: 10px;
+	color:white;
+	font-weight: 200px;
+	box-shadow:1px 5px 2px 2px #6e6651e6;
+    position:center;
+        
+	
+}
+#service:hover{
+	box-shadow: 1px 5px 2px 2px rgba(84, 69, 69, 0.53);
+	transition: all ease-in-out 0.45s;
+}
+#service a{
+	color: #1684bb;
+	text-decoration: none;
+	padding: 10px;
+}
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #1e6b924d;
+    color: white;
+    text-align: left;
+}
+#footer h2{
+	color: white;
+	float: left;
+	margin-right:10px;
+	font-weight:100;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#nav2 ul{
+    float: left;
+
+}
+#nav2 ul li{
+	display: line-block;
+	list-style-type: none;
+	font-size:40px;
+
+}
+#nav2 ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+}
+.floating-box-title {
+    display: inline-block;
+    width: 100%;
+    height: 250%;
+    margin: 5px;
+    margin-left:3px;
+    border: 6px solid #fffcc6;
+    text-align: center;
+    position :top;
+}
+
+.floating-box-content {
+    display: inline-block;
+    width: 100%;
+    height: 250%;
+    margin: 5px;
+    text-align: left;
+    vertical-align: text-top;
+    border: 1px solid white;
+}
+
+
+
