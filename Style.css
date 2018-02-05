@@ -4,9 +4,9 @@
 }
 #main-content{
     width: 100%;
-	height: 1000px;
+	height: 1850px;
 	background: url(MP.jpg) ;
-	background-size: cover;
+	background-size:cover;
     background-repeat: no-repeat;
 	text-align: center;
 	color: #ffffff;
@@ -67,6 +67,8 @@
 	color:white;
 	font-weight: 200px;
 	box-shadow:1px 5px 2px 2px #6e6651e6;
+    position:center;
+        
 	
 }
 #service:hover{
@@ -114,19 +116,20 @@
 }
 .floating-box-title {
     display: inline-block;
-    width: 30%;
+    width: 100%;
     height: 250%;
     margin: 5px;
+    margin-left:3px;
     border: 6px solid #fffcc6;
     text-align: center;
-    position: top;
+    position :top;
 }
 
 .floating-box-content {
     display: inline-block;
-    width: 30%;
-    height: 500%;
-    margin: 12px;
+    width: 100%;
+    height: 250%;
+    margin: 5px;
     text-align: left;
     vertical-align: text-top;
     border: 1px solid white;
