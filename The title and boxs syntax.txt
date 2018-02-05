@@ -39,7 +39,6 @@
     </div>
     <div id="events-content" class="floating-box-content">
         <p>this is events content</p>
-        <img width="250" src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" />
     </div>
 
     <div id="links-content" class="floating-box-content">

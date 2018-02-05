@@ -20,10 +20,10 @@
    margin: 0px;
 }
 #navl {
-	width: 100%;
-	height: 70px;
-	line-height:70px;
-	background: #1684bb;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: #1e698f;
 }
 #navl h1{
     float: left;
@@ -78,21 +78,23 @@
 	text-decoration: none;
 	padding: 10px;
 }
-#footer{
-       width:100%;
-	   height:75px;
-	   background:#1684bb4a;
-	   
-	   
-
-
-
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #1e6b924d;
+    color: white;
+    text-align: left;
 }
 #footer h2{
 	color: white;
-	float: right;
-	margin-right:20px;
-	font-weight:200;
+	float: left;
+	margin-right:10px;
+	font-weight:100;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 #nav2 ul{
@@ -102,11 +104,33 @@
 #nav2 ul li{
 	display: line-block;
 	list-style-type: none;
-	font-size:30px;
+	font-size:40px;
 
 }
 #nav2 ul li a{
 	text-decoration: none;
 	color: white;
-	padding: 15px;
+	padding: 25px;
 }
+.floating-box-title {
+    display: inline-block;
+    width: 30%;
+    height: 250%;
+    margin: 5px;
+    border: 6px solid #fffcc6;
+    text-align: center;
+    position: top;
+}
+
+.floating-box-content {
+    display: inline-block;
+    width: 30%;
+    height: 500%;
+    margin: 12px;
+    text-align: left;
+    vertical-align: text-top;
+    border: 1px solid white;
+}
+
+
+
