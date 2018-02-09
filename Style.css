@@ -12,6 +12,7 @@
     vertical-align: text-top;
     align-items:center;
     float: left; /*This is really important for the layout*/
+	background-color: white;
 }
 #welcome {
     font-family: 'Monoton';
