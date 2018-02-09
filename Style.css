@@ -64,7 +64,7 @@
 	background: #1684bb;
 	transition: all ease-in-out 0.45s;
 }
-#active{
+li.active{
    background: #1684bb;
 }
 #service{
