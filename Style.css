@@ -3,7 +3,7 @@
     background: url(Pictures/MP.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 .floating-box {
     display: inline-block;
@@ -96,7 +96,7 @@ li.active{
     left: 0;
     bottom: 0px;
     width: 100%;
-    height: 50px;
+    height: 30px;
     background-color: #00000080;
     color: white;
     text-align: left;
@@ -166,12 +166,10 @@ li.active{
 }
 
 img.map {
-    /*put the map in the middle of things*/
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-        
-    width: 50%;
+    float:right;
+    width: 40%;
+    padding: 30px;
 }
 #sub {
     width: 100px;
@@ -185,11 +183,11 @@ img.map {
     left:auto
 }
 #extra {
-    width: 600px;
-    float: unset;
-    /*margin-right: 100px;*/
+    display: table;
+    padding:5px;
     font-size: 20px;
-    color: #cfcdcb;
+    color: #000000;
+    background-color:white;
 }
 
 
