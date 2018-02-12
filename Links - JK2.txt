@@ -1,0 +1,6 @@
+links 2
+
+http://cna.mamk.fi/
+http://student.xamk.fi/
+https://moodle.xamk.fi/
+https://opiskelija.peppi.xamk.csc.fi/
