@@ -13,7 +13,10 @@
     vertical-align: text-top;
     align-items:center;
     float: left; /*This is really important for the layout*/
-	background-color: white;
+	background-color: #eae7e68f;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	    
 }
 #welcome {
     font-family: 'Monoton';
