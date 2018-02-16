@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background: url(Pictures/BackgroundFinished.png);
-    background-size: cover;
+    background: url(Pictures/numberbg.jpg);
+	background-size: cover;
     padding: 50PX;
 }
 .floating-box {
@@ -178,9 +178,9 @@ li.active {
 /*Responsive resize for the form*/
 @media screen and (max-width: 1000px) {
 #form { padding-left: 5%; }
-#name { width: 80%; }
-#email { width: 80%; }
-#com { width: 80%; height: 100px;}
+#name { width: 90%; }
+#email { width: 90%; }
+#com { width: 90%; height: 100px;}
 }
 
 /*This much is the button (Put the content in <span> to get effect*/
