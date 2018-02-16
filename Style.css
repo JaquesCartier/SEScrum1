@@ -18,7 +18,8 @@
 	font-size: 20px;
 	    
 }
-#welcome {
+
+    #welcome {
     font-family: 'Monoton';
     text-align: center;
     color: #ffffff;
@@ -28,8 +29,10 @@
 .title {
     border: 3px solid #1684bb;
     background-color: #1684bb;
-    color: white
+    color: white;
+   
 }
+
 *{
    padding: 0px;
    margin: 0px;
