@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family: 'Roboto Condensed', sans-serif;
     background: url(Pictures/BackgroundFinished.png);
     background-size: cover;
@@ -9,13 +9,12 @@
     width: 33%;
     margin: 2px;
     text-align: center;
-    vertical-align: text-top;
+    vertical-align: top;
     align-items:center;
     float: left; /*This is really important for the layout*/
 	background-color: #eae7e68f;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 20px;
-	
 }
 
 #welcome {
@@ -178,12 +177,6 @@ li.active {
     resize:none;
 }
 
-img.map {
-    display: block;
-    float:right;
-    width: 40%;
-    padding: 30px;
-}
 #sub {
     width: 100px;
     background: #496a87;
@@ -194,13 +187,6 @@ img.map {
     font-size: 18px;
     vertical-align: text-bottom;
     left:auto
-}
-#extra {
-    display: table;
-    padding:5px;
-    font-size: 20px;
-    color: #000000;
-    background-color:white;
 }
 
 
