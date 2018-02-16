@@ -4,6 +4,15 @@ body {
 	background-size: cover;
     padding: 50PX;
 }
+
+/*The banner*/
+.banner {
+	text-align: center;
+}
+.banner img {
+	width: 100%;
+}
+
 .floating-box {
     display: inline-block;
     width: 33%;
@@ -60,6 +69,11 @@ li.active {
 li.passive {
 	background-color: #0009
 }
+/*Disappear when zoomed in too hard*/
+@media screen and (max-width: 400px) {
+	#navl { display: none; }
+}
+
 
 /*Just the service button*/
 #service{
