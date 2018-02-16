@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background: url(Pictures/numberbg.jpg);
 	background-size: cover;
-    padding: 50PX;
+	padding: 10px;
 }
 
 /*The banner*/
