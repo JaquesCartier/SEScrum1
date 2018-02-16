@@ -180,20 +180,44 @@ li.active {
 #form { padding-left: 5%; }
 #name { width: 80%; }
 #email { width: 80%; }
-#com { width: 80%; }
+#com { width: 80%; height: 100px;}
 }
 
+/*This much is the button (Put the content in <span> to get effect*/
+button {
+width: 100px;
+background: #0168c3;
+cursor: pointer;
+height: 50px;
+color: #b2c9de;
+font-size: 18px;
+vertical-align: text-bottom;
+left:auto
+}
 
-#sub {
-    width: 100px;
-    background: #496a87;
-    border-radius: 5px;
-    height: 50px;
-    border: 0px;
-    color: #b2c9de;
-    font-size: 18px;
-    vertical-align: text-bottom;
-    left:auto
+/*Let's make the button awesome!*/
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 
