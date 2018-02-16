@@ -13,7 +13,8 @@ body {
 	width: 100%;
 }
 
-.floating-box {
+/*ALL CONTENT MUST BE PUT IN THESE BOXES!*/
+.floating-box3 {
     display: inline-block;
     width: 33%;
     margin: 2px;
@@ -27,11 +28,46 @@ body {
 }
 /*Responsive content size adjusting*/
 @media screen and (max-width: 1300px) {
-	.floating-box {
+	.floating-box3 {
     		width: 100%;
     		float: auto; /*This is really important for the layout*/
 	}
 }
+
+.floating-box2 {
+    display: inline-block;
+    width: 50%;
+    margin: 2px;
+    text-align: center;
+    vertical-align: top;
+    align-items:center;
+    float: left; /*This is really important for the layout*/
+	background-color: #eae7e6e6;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+}
+/*Responsive content size adjusting*/
+@media screen and (max-width: 1300px) {
+	.floating-box2 {
+    		width: 100%;
+    		float: auto; /*This is really important for the layout*/
+	}
+}
+
+
+.floating-box1 {
+    display: inline-block;
+    width: 100%;
+    margin: 2px;
+    text-align: center;
+    vertical-align: top;
+    align-items:center;
+    float: left; /*This is really important for the layout*/
+	background-color: #eae7e6e6;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+}
+
 .title {
     border: 3px solid #1684bb;
     background-color: #1684bb;
